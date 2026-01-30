@@ -7,7 +7,7 @@ let vetorMedias = new Array(10);
 let somaNotas = 0.0;
 
 for (let aluno = 0; aluno < matriz.length; aluno++) {
-    matriz[aluno] = Array(4);
+    matriz[aluno] = Array(10);
 }
 
 for (let aluno = 0; aluno < matriz.length; aluno++) {
@@ -18,7 +18,6 @@ for (let aluno = 0; aluno < matriz.length; aluno++) {
     }
     vetorMedias[aluno] = somaNotas / 4;
 }
-
 
 for (let indice = 0; indice < matriz.length; indice++) {
     console.log(`Media do aluno ${indice}: ${vetorMedias[indice].toFixed(1)}`)
